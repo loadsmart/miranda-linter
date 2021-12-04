@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-miranda-linter",
-  "version": "0.0.0",
+  "name": "@loadsmart/miranda-linter",
+  "version": "0.0.1",
   "description": "The purpose is to ensure Miranda design system is used in a standardized way",
   "keywords": [
     "eslint",
@@ -8,12 +8,9 @@
     "eslint-plugin"
   ],
   "author": "Juliana Souza",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint ."
-  },
-  "dependencies": {
-    "requireindex": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -25,5 +22,5 @@
   "peerDependencies": {
     "eslint": ">=6"
   },
-  "license": "ISC"
+  "license": "MIT"
 }

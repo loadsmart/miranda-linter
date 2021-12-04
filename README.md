@@ -1,4 +1,4 @@
-# eslint-plugin-miranda-linter
+# miranda-linter
 
 The purpose is to ensure Miranda design system is used in a standardized way
 
@@ -10,10 +10,10 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-miranda-linter`:
+Next, install `miranda-linter`:
 
 ```sh
-npm install eslint-plugin-miranda-linter --save-dev
+npm install miranda-linter --save-dev
 ```
 
 ## Usage
