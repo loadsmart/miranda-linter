@@ -14,8 +14,6 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-        "react/jsx-uses-react": "error",
-        "react/jsx-uses-vars": "error",
         "react/forbid-elements": [1, { 
                 "forbid": [
                     { "element": "p", "message": "use Miranda <Text> instead" },
