@@ -30,13 +30,11 @@ module.exports = {
                     { "element": "h4", "message": "use Miranda <Text> instead" },
                     { "element": "h5", "message": "use Miranda <Text> instead" },
                     { "element": "h6", "message": "use Miranda <Text> instead" },
-                    { "element": "input type='checkbox'", "message": "use Miranda <Checkbox> instead" },
+                    { "element": "input", "message": "use one of Miranda input componentes like <TextField>, <Checkbox> or <Radio>  instead. For other non-supported types you can just disable this warning" },
                     { "element": "label", "message": "use Miranda <Label> instead" },
                     { "element": "a", "message": "use Miranda <Link> instead" },
-                    { "element": "input type='radio'", "message": "use Miranda <Radio> instead" },
                     { "element": "select", "message": "use Miranda <Select> instead" },
                     { "element": "table", "message": "use Miranda <Table> instead" },
-                    { "element": "input type='text'", "message": "use Miranda <TextField> instead" },
                     { "element": "textarea", "message": "use Miranda <Textarea> instead" },
                 ] 
             }

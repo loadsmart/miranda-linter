@@ -1,5 +1,5 @@
 {
-  "name": "@loadsmart/miranda-linter",
+  "name": "@loadsmart/eslint-config-miranda-linter",
   "version": "0.0.1",
   "description": "The purpose is to ensure Miranda design system is used in a standardized way",
   "keywords": [
@@ -12,15 +12,12 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.27.1"
-  },
   "engines": {
     "node": "12.x || 14.x || >= 16"
   },
   "peerDependencies": {
-    "eslint": ">=6"
+    "eslint": ">=6",
+    "eslint-plugin-react": "^7.27.1"
   },
   "license": "MIT"
 }

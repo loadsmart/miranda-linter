@@ -10,20 +10,20 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `miranda-linter`:
+Next, install `@loadsmart/eslint-config-miranda-linter`:
 
 ```sh
-npm install miranda-linter --save-dev
+npm install @loadsmart/eslint-config-miranda-linter --save-dev
 ```
 
 ## Usage
 
-Add `miranda-linter` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@loadsmart/eslint-config-miranda-linter` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "miranda-linter"
+        "@loadsmart/eslint-config-miranda-linter"
     ]
 }
 ```
