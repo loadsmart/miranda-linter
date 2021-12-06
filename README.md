@@ -1,6 +1,6 @@
 # miranda-linter
 
-The purpose is to ensure Miranda design system is used in a standardized way
+The purpose is to ensure Miranda design system is adopted in a standardized way instead of using pure HTML elements
 
 ## Installation
 
@@ -18,11 +18,11 @@ npm install @loadsmart/eslint-config-miranda-linter --save-dev
 
 ## Usage
 
-Add `@loadsmart/eslint-config-miranda-linter` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@loadsmart/eslint-config-miranda-linter` to the extends section of your `.eslintrc` configuration file. You can omit the `eslint-config-` prefix:
 
 ```json
 {
-    "plugins": [
+    "extends": [
         "@loadsmart/eslint-config-miranda-linter"
     ]
 }
