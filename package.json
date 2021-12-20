@@ -12,6 +12,9 @@
   "scripts": {
     "lint": "eslint ."
   },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.27.1"
+  },
   "engines": {
     "node": "12.x || 14.x || >= 16"
   },
