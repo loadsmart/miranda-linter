@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: miranda-linter
+  description: ESLint plugin to ensure best usage of Miranda Design System
+  annotations:
+    github.com/project-slug: loadsmart/miranda-linter
+  tags:
+    - javascript
+spec:
+  type: other
+  lifecycle: production
+  owner: frontend
